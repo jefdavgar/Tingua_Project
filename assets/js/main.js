@@ -11,11 +11,12 @@ function agregarTarea(tarea){
                         <div>
                             <p>${tarea}</p>
                         </div>
-                     </div>
-                    `
+                     </div>         `
     ul.insertAdjacentHTML("beforeend", elemento)
+    
+
 }
-addBtn.addEventListener("click", ()=>{
+addBtn.addEventListener("click", (e)=>{
     const tarea =input.value
     if(tarea){
         agregarTarea(tarea)
@@ -24,13 +25,14 @@ addBtn.addEventListener("click", ()=>{
 })
 document.addEventListener("keyup", function(event){
     if(event.key=="Enter"){
-        const tarea =input.value
+        const tarea =input.value;
         if(tarea){
         agregarTarea(tarea)
         }
     input.value=""
     }
 })
-function tareaEliminada(element){
-    element.parentNode.parentNode.removeChild(element.parentNode)
-}
+
+  
+
+  
