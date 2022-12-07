@@ -21,7 +21,7 @@ Herramientas usadas en este proyecto:
 9.	Metodologías agiles 
 10.	zom 
  
-Despliegue: 
+Despliegue del repositorio : 
 https://jefdavgar.github.io/TINGUA/
  
 Objetivo: 
@@ -50,6 +50,6 @@ Las imágenes que se utilizaron fueron las siguientes:
 ![TINGUA INICIO](https://user-images.githubusercontent.com/116750999/206251850-e3a7c220-fdca-47ce-88be-c2b77b227023.jpg)
 Iconos: 
 
-Para los iconos de la cabeza de los que aparecen en la lista se saco de favicon.com 
+Para los iconos de la cabeza de los que aparecen en la lista se saco de favicon.com .
 
  
