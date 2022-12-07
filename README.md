@@ -1,10 +1,11 @@
 # TINGUA
 Tingua_Project
 Mockup de este proyecto    
-![SE ELIMINA DEL SORTEO](https://user-images.githubusercontent.com/116750999/206251833-8f53238d-c5ef-49fe-8dd4-935cbd5de829.jpg)
+
 ![TINGUA INICIO](https://user-images.githubusercontent.com/116750999/206251850-e3a7c220-fdca-47ce-88be-c2b77b227023.jpg)
 ![TINGUA WHEEL OF DOOM](https://user-images.githubusercontent.com/116750999/206251857-0f161b65-f532-4f03-875b-37a6d1d723b2.jpg)
 ![AÑADIR NOMBRES](https://user-images.githubusercontent.com/116750999/206251862-cfadddd4-fb32-4281-9236-a7a8dbfad134.jpg)
+![SE ELIMINA DEL SORTEO](https://user-images.githubusercontent.com/116750999/206251833-8f53238d-c5ef-49fe-8dd4-935cbd5de829.jpg)
 ![POP UP](https://user-images.githubusercontent.com/116750999/206251865-2f7b1b0e-21e7-49a4-80d4-9d4e7b7318ae.jpg)
 
      
@@ -21,7 +22,7 @@ Herramientas usadas en este proyecto:
 10.	zom 
  
 Despliegue: 
-https://jefdavgar.github.io/Tingua_Project/ 
+https://jefdavgar.github.io/TINGUA/
  
 Objetivo: 
 El objetivo este proyecto es realizar una ruleta que nos ayude a través de un sorteo a sacar nombres aleatorios y asi mismo ir borrándolo de la lista anterior  
