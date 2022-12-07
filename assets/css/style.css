@@ -1,0 +1,168 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000046, #147792); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img{
+    margin: 10px;
+    max-width: 100%;
+}
+header{
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    display: flex;
+}
+.btn_fond{
+    margin-top: 30px;
+}
+.btn{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.list-names{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #8C8080;
+    border: solid black 1px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1em;
+}
+.seccion_lista1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.space-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input {
+    border: black solid;
+    border-radius: 50px;
+    padding: 15px 10px;
+    width: 100%;
+    background: #8C8080;
+}
+.btn-add {
+    padding: 11px 25px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    outline: none;
+}
+.btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    width: 10%;
+    font-size: 1.2em;
+}
+  
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+.content_dinamic{
+    display: flex;
+    justify-content: center;
+}
+.content_dinamic img{
+    margin: 70px 10px;
+}
+ul{
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+ul li{
+    list-style-image: url(./tingua.png);
+}
+.container_list{
+    display: flex;
+    flex-direction: column;
+}
+.listaNombres{
+    display: flex;
+    flex-direction: column;
+}
+.video_ave{
+    visibility: hidden;
+}
+.modal-container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 79, 79, 0.7);
+    z-index: 1;
+    visibility: hidden;
+}
+.modal-content{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.modal-content h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.modal-content img{
+    width: 100vh;
+    margin: 30px 0px;
+}
+.modal-content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.close{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: rgb(17, 195, 62);
+    cursor: pointer;
+}
+.close p{
+    color: #fff;
+    font-weight: 400;
+}
+.close:hover{
+    background-color:hsl(135, 84%, 40%);
+
+}

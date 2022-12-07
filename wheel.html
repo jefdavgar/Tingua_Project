@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheelOfDoom</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <header class="d-flex">
+                <img src="./assets/img/tingua-removebg-preview (1) 1.png" alt="">
+                <a class="video_ave" id="ave" href="https://www.gifsanimados.org/cat-pajaros-y-aves-230.htm"><img src="https://www.gifsanimados.org/data/media/230/pajaro-y-ave-imagen-animada-0417.gif" alt="pajaro-y-ave-imagen-animada-0417" /></a>
+                <div class="d-flex justify-content-end contend_header">
+                    <div class="search">
+                        <input type="text" placeholder="Agregar Nombre">
+                        <button class="btn-add">+</button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="seccion_lista1">
+                        <img src="./assets/img/image 2.png" alt="img_1">
+                    </div>
+                    <article class="list-names">
+                        <div class="d-flex">
+                            <ul id="add_list">
+                                
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="seccion_lista1">
+                        <img src="./assets/img/image 2.png" alt="img_1">
+                    </div>
+                    <article class="list-names">
+                        <ul>
+                            <div class="listaNombres" id="listaNombres">
+                            </div>
+                        </ul>
+                    </article>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="space-btn">
+                        <button class="btn" id="sorteo" onclick="mostrarAleatorio()">SORTEO</button>
+                        <button class="btn" id="reiniciar"><a href="index.html" style="color: white;">REINICIAR</a></button>
+                    </div>
+                    <div class="content_dinamic">
+                        <img src="./assets/img/tingua-removebg-preview 1.png" alt="">
+                    </div>
+                    <div class="space-btn">
+                        <button class="btn" id="proxima">PROXIMA PERSONA</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="modal" class="modal-container">
+                    <div class="modal-content">
+                        <img src="./assets/img/tingua1.jpg" alt="">
+                        <div id="close" class="close">
+                            <p>Cerrar</p>
+                        </div>
+                    </div>
+                </div>
+                <audio controls autoplay id="Intro" src="/assets/audio/aves_21.mp3" style="visibility: hidden;"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
