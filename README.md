@@ -45,7 +45,7 @@ Las imágenes que se utilizaron fueron las siguientes:
  
  
 ![hero PNG](https://user-images.githubusercontent.com/116750999/206252908-1cb8bb97-3f25-4e9c-8e39-8fea9770c314.jpg)
-![TINGUA](https://user-images.githubusercontent.com/116750999/206252920-df092afd-9a8d-4331-8bd5-82b87e5db6a8.jpg)
+![TINGUA INICIO](https://user-images.githubusercontent.com/116750999/206251850-e3a7c220-fdca-47ce-88be-c2b77b227023.jpg)
 Iconos: 
 
 Para los iconos de la cabeza de los que aparecen en la lista se saco de favicon.com 
