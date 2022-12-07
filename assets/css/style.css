@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 img{
     margin: 10px;
@@ -83,4 +84,21 @@ ul li{
 .container_list{
     display: flex;
     flex-direction: column;
+}
+
+#Intro{
+    visibility: hidden;
+
+}
+
+#segunda{
+    visibility: hidden;
+
+}
+.img-fondo{
+    background-image: linear-gradient(rgba(0, 1, 5, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/tingua\ volando.gif");
+
+    background-repeat: no-repeat;
+    text-align: center;
+    
 }

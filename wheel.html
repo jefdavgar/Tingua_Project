@@ -10,60 +10,68 @@
     <link rel="stylesheet" href="./assets/css/all.min.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="container">
-            <header class="d-flex">
-                <img src="./assets/img/tingua-removebg-preview (1) 1.png" alt="">
-                <div class="d-flex justify-content-end contend_header">
-                    <div class="search">
-                        <input type="text" placeholder="Agregar Nombre">
-                        <button class="btn-add">+</button>
+    
+    <div class="img-fondo">
+
+        <div class="container-fluid">
+            <audio controls autoplay id="segunda" src="/audio/SEAGULLS.mp3"></audio>
+            <div class="container">
+                <header class="d-flex">
+                    <img src="img/tingua-removebg-preview (1) 1.png" alt="logotipo de la ruleta">
+                    <div class="d-flex justify-content-end contend_header">
+                        <div class="search">
+                            <input type="text" placeholder="Agregar Nombre">
+    
+                            <button class="btn-add">+</button>
+                            
+                        </div>
                     </div>
                 </div>
-            </header>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="seccion_lista1">
-                        <img src="./assets/img/image 2.png" alt="img_1">
+                </header>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="seccion_lista1">
+                            <img src="img/image 2.png" alt="img_1">
+                        </div>
+                        <article class="list-names">
+                            <div class="d-flex">
+                                <ul id="add_list">
+                                    
+                                </ul>
+                            </div>
+                        </article>
                     </div>
-                    <article class="list-names">
-                        <div class="d-flex">
-                            <ul id="add_list">
+                    
+                    <div class="col-lg-3">
+                        <div class="seccion_lista1">
+                            <img src="img/image 2.png" alt="img_1">
+                        </div>
+                        <article>
+                            <ul class="list-names">
                                 
                             </ul>
+                        </article>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="space-btn">
+                            <button class="btn" id="sorteo">SORTEO</button>
+                            <a href="index.html"><button class="btn" id="reiniciar">REINICIAR</button></a>
                         </div>
-                    </article>
-                </div>
-                <div class="col-lg-3">
-                    <div class="seccion_lista1">
-                        <img src="./assets/img/image 2.png" alt="img_1">
-                    </div>
-                    <article>
-                        <ul class="list-names">
-                            
-                        </ul>
-                    </article>
-                </div>
-                <div class="col-lg-6">
-                    <div class="space-btn">
-                        <button class="btn" id="sorteo">SORTEO</button>
-                        <button class="btn" id="reiniciar">REINICIAR</button>
-                    </div>
-                    <div class="content_dinamic">
-                        <img src="./assets/img/tingua-removebg-preview 1.png" alt="">
-                    </div>
-                    <div class="space-btn">
-                        <button class="btn" id="eliminar">ELIMINAR</button>
-                        <button class="btn" id="proxima">PROXIMA PERSONA</button>
+                        <div class="content_dinamic">
+                            <img src="assets/img/pájaro-riendose.gif" alt="">
+                        </div>
+                        <div class="space-btn">
+                            <button class="btn" id="eliminar">ELIMINAR</button>
+                            <button class="btn" id="proxima">PROXIMA PERSONA</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/custom.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/example.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

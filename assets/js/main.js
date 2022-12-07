@@ -1,29 +1,41 @@
 const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
 const ul = document.getElementById("add_list");
+const deleteBtn = document.getElementById("eliminar"); 
 
 
-addBtn.addEventListener("click", (no_actualizar) => {
-    no_actualizar.preventDefault();
-  
-    const text = input.value;
-    if (text !== "") {
-      const li = document.createElement("li");
-      const div = document.createElement("div");
-      const p = document.createElement("p");
-      const empty = document.createElement("p");
-      p.textContent = text
-      empty.textContent=" ";
-      div.className = "d-flex"
-      ul.appendChild(div);
-      div.appendChild(li);
-      li.appendChild(empty);
-      div.appendChild(p);
-      input.value = "";
+
+//funcion de los botones reiniciar y reiniciar final
+
+ 
+//funcion para agregar tarea
+function agregarTarea(tarea){
+    const elemento= 
+                    `<div class="d-flex">
+                        <li></li>
+                        <div>
+                            <p>${tarea}</p>
+                        </div>
+                     </div>
+                    `
+    ul.insertAdjacentHTML("beforeend", elemento)
+}
+addBtn.addEventListener("click", ()=>{
+    const tarea =input.value
+    if(tarea){
+        agregarTarea(tarea)
     }
-});
-
-
-deleteBtn.addEventListener("click", ()=>{
-  ul.get
+    input.value=""
 })
+document.addEventListener("keyup", function(event){
+    if(event.key=="Enter"){
+        const tarea =input.value
+        if(tarea){
+        agregarTarea(tarea)
+        }
+    input.value=""
+    }
+})
+function tareaEliminada(element){
+    element.parentNode.parentNode.removeChild(element.parentNode)
+}
