@@ -21,7 +21,7 @@ Herramientas usadas en este proyecto:
 9.	Metodologías agiles 
 10.	zom 
  
-Despliegue: 
+Despliegue de la pagina: 
 https://jefdavgar.github.io/TINGUA/
  
 Objetivo: 
