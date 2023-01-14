@@ -52,4 +52,6 @@ Iconos:
 
 Para los iconos de la cabeza de los que aparecen en la lista se saco de favicon.com 
 
+![WheelOfDoom](https://user-images.githubusercontent.com/116750999/212441393-12527590-67bf-4f01-8e72-408ce4a78c3a.gif)
+
  
